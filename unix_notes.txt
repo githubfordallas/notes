@@ -1,0 +1,17 @@
+voltages, circuits, transistors, and silicon. (raspberry pi)
+
+operating system provides interfaces (UNIX)
+
+software manipulates the interfaces (Node.js)
+
+
+UNIX
+- Kernel (hub: time, memory to programs, file store, comms with system calls)
+- Shell (interface: user -> kernal  ) ( Node.js ? )
+- Program ( JavaScript File )
+
+everything in unix is either a file or a process
+
+process is an executing program identified by a unique PID (process identifier)
+
+file is a collection of data

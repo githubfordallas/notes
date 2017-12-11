@@ -1,0 +1,14 @@
+callbacks:  [do X] -> [then Y]
+  ex.) readFile(callback);
+
+events:  [when X happens] -> [do Y]
+  ex.) file.on("open", callback);
+
+streams:  [readable] -> [buffer] -> [pipe] -> [buffer] -> [writable]
+  ex.) readMe.pipe(writeMe);
+
+modules:  [module]--------->[main]<---------[module]
+                   [module]__/^^\__[module]
+  ex.) file1: exports.name = "value"; // exports {name: "value"}
+  ex.) file2: var file1 = require("./file1");
+              file1.name // > value
