@@ -39,3 +39,7 @@
 "stuff" | "more"  piping operator
 > ssh "id@ip"   secure remote connection
 > scp "source" "target"  secure file transfers
+> curl     http command
+> tar     archive or zip command
+> alias shortcut="long code and stuff"  creates shortcuts for that terminal session
+> ln "path" "new path"  creates a link (shortcut kind of)
