@@ -7,11 +7,35 @@
 > cd               change dir
 > cd ..            up one dir
 > mkdir              make dir
-> rm               remove dir
+> rmdir            remove dir
+> rm              remove file
   > -r        remove contents
 > touch           create file
 > open              open file
   > -a "app"          use app
   > .             current dir
-> mv __ __    rename file/dir
+> mv __ __      move file/dir
 > pwd       print working dir
+> cp "thing" "new thing" copy
+> cat "file" show me contents
+> less "file"   show contents
+> find "file"     find it
+> grep "keyword" keyword search
+   > *   match with anything and everything
+> !!    do last again
+> history     do last again
+> sudo       root permission
+> nano/vim   editor
+   > i     insert mode
+   > esc     execute mode
+   > :x     save and quit
+> man "command"   manual
+> chmod    permissions
+   > q    quit man
+"stuff" > "more"  stream STDOUT from stuff to more
+"stff" >> "more"  append output to new file
+      2>          error STDERROR
+"stuff" < "more"  stream STDIN from more to stuff
+"stuff" | "more"  piping operator
+> ssh "id@ip"   secure remote connection
+> scp "source" "target"  secure file transfers
